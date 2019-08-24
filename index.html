@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" type="text/css" href="css/main.css"/>
+      <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i&display=swap&subset=latin-ext" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/main.js"></script>
+      
+      <script>
+          $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 750) {
+                $(".fixed-top").addClass("change-fix-top");
+            } else {
+                $(".fixed-top").removeClass("change-fix-top");
+            }
+          });
+          
+          $(document).on('click', 'a', function(event){
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top
+            }, 750);
+          });
+
+        </script>
+ 
+      <title>Samet Karaalioğlu</title>
+      
+     
+            
+      
+  </head>
+    
+  <body>
+      
+      
+      <section id="cover">
+          <div class="container">
+              <div class="row">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+                      <a class="navbar-brand pb-3" href="#">KARAALİOĞLU</a>
+                      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                              <li class="nav-item px-1">
+                                <a class="nav-link" href="#cover">ANASAYFA </a>
+                              </li>
+                              <li class="nav-item px-1">
+                                <a class="nav-link" href="#hizmetler">HİZMETLER</a>
+                              </li>
+                              <li class="nav-item px-1">
+                                <a class="nav-link" href="#portfolio">PORTFOLYO</a>
+                              </li>
+                              <li class="nav-item px-1" >
+                                <a class="nav-link" href="#aboutUs">HAKKIMIZDA</a>
+                              </li>
+                              <li class="nav-item px-1">
+                                <a class="nav-link" href="#contact">İLETİŞİM</a>
+                              </li>
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+            
+            <div class="girismetni row text-center" > <!-- its nice too meet you kısmını yapacağım şimdi bir row oluşturdum bi de sütun classı oluşturucam 12 satırlık -->
+                <div class="col-sm-12">
+                    <h1>Karaalioğlu Mimarlık</h1>
+                </div>
+                <div class="col-sm-12">
+                    <h2>HOŞGELDİNİZ</h2>
+                </div>
+                
+                <div class="col-sm-12">
+                    <a href=#><button type="button" class="btn btn-primary btn-lg">DAHA FAZLA BİLGİ</button></a>
+                </div>
+              
+              
+            </div>
+              </div>
+        
+    </section>
+      
+      
+    <section id="hizmetler">
+    <div class="container">
+            <div class="hizmetler-top text-center wow fadeInDown" data-wow-duration="2s">
+                <h3>HİZMETLERİMİZ</h3>
+                <p>Proin iaculis purus consequat sem cure.</p>
+            </div>
+        
+            
+            <div class="hizmetler-icerik text-center">
+                <!--burada 1 tane satır yaratıp onu üçe böleceğim çünkü tasarım öyle -->
+                <div class=row> <!--burada satırımı yaratmış oldum div class row ile-->
+                    <div class="col-sm-4 wow fadeInLeft" data-wow-duration="2s"> <!--burada da ben o yarattığım satırı üç sütuna bölmüş oldum 1 satır 12 sütündan oluşur bootstrapte-->
+                        <div class="daire"> <!--servicestaki ikonları almak yerine font awesome kullanacağım o yüzden ikon için bir div yarattım-->
+                            <i class="fas fa-building fa-3x"></i>
+                        </div>
+                        
+                        <h4>Proje Çizimi</h4>
+                        <p>
+                        Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean 
+                        rhoncus posuere odio in tincidunt.
+                        </p>
+                    
+                    </div>
+                    
+                    <div class="col-sm-4 wow fadeInUp" data-wow-duration="2s"> <!--burada da ben o yarattığım satırı üç sütuna bölmüş oldum 1 satır 12 sütündan oluşur bootstrapte-->
+                        <div class="daire"> <!--servicestaki ikonları almak yerine font awesome kullanacağım o yüzden ikon için bir div yarattım-->
+                            <i class="fas fa-certificate fa-3x"></i>
+                        </div>
+                        
+                        <h4>Danışmanlık</h4>
+                        <p>
+                        Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean 
+                        rhoncus posuere odio in tincidunt.
+                        </p>
+                    
+                    </div>
+                    
+                    <div class="col-sm-4 wow fadeInRight" data-wow-duration="2s"> <!--burada da ben o yarattığım satırı üç sütuna bölmüş oldum 1 satır 12 sütündan oluşur bootstrapte-->
+                        <div class="daire"> <!--servicestaki ikonları almak yerine font awesome kullanacağım o yüzden ikon için bir div yarattım-->
+                            <i class="fas fa-industry fa-3x"></i>
+                        </div>
+                        
+                        <h4>İç Mimarlık</h4>
+                        <p>
+                        Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean 
+                        rhoncus posuere odio in tincidunt.
+                        </p>
+                    
+                    </div>
+                    
+                    
+                    
+                </div>
+            
+            </div>
+        
+        </div>
+
+    </section>
+      
+      <section id="portfolio">
+      
+          <div class="container">
+              <div class="portfolio-top text-center">
+                  <h3>PROJELERİMİZ</h3>
+                  <p>Proin iaculis purus consequat sem cure.</p>
+              </div>
+              
+              <div class="portfolio-content text-center">
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <div class="card">
+                                <img src="images/portfolio1.jpg" alt="Product1"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Ebony &amp; Ivory</h4>
+                                    <p class="card-text text-muted">Branding</p>
+                                </div>
+                          </div>
+                      </div>
+                      
+                      <div class="col-sm-4">
+                          <div class="card">
+                                <img src="images/portfolio2.jpg" alt="Product2"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Smart Stationary</h4>
+                                    <p class="card-text text-muted">Print Design</p>
+                                </div>
+                          </div>
+                      </div>
+                      
+                      <div class="col-sm-4">
+                          <div class="card">
+                                <img src="images/portfolio3.jpg" alt="Product3"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Clever Poster</h4>
+                                    <p class="card-text text-muted">Print Design</p>
+                                </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <div class="card">
+                                <img src="images/portfolio4.jpg" alt="Product4"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Vinly Record</h4>
+                                    <p class="card-text text-muted">Product Mock-Up</p>
+                                </div>
+                          </div>
+                      </div>
+                      
+                      <div class="col-sm-4">
+                          <div class="card">
+                                <img src="images/portfolio5.jpg" alt="Product5"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Treehouse Template</h4>
+                                    <p class="card-text text-muted">Web Design</p>
+                                </div>
+                          </div>
+                      </div>
+                      
+                      <div class="col-sm-4">
+                          <div class="card">
+                                <img src="images/portfolio6.jpg" alt="Product6"/>
+                                <div class="card-body">
+                                    <h4 class="card-title">Burned Logo</h4>
+                                    <p class="card-text text-muted">Branding</p>
+                                </div>
+                          </div>
+                      </div>
+                  </div>
+              
+              </div>
+          
+          </div>
+        
+      </section>
+      
+      
+      <section id="aboutUs">
+          <div class="container">
+              <div class="aboutUs-top text-center">
+                      <h3>HAKKIMIZDA</h3>
+                      <p>Proin iaculis purus consequat sem cure.</p>
+              </div>
+              
+              <div class="aboutUs-content">
+                  <div class="row">
+                      <div class="col-sm-4 text-right"> <!-- tasarımı yine üç sütuna bölüyorum burada-->
+                          <h4>EYLÜL 2015</h4>
+                          <h4>Üniversite Yılları</h4>
+                          <p>
+                    Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. 
+                    Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.
+                          </p>
+                      </div>
+                      <div class="col-sm-4 text-center">
+                          <img src="images/aboutus1.png" alt="aboutus1"/>
+                      </div>
+                  </div>
+                  
+                  <div class="row">
+                      <div class="col-sm-4 offset-sm-4 text-center"> <!-- offset ile ikinci resimin solunu boşaltıyorum-->
+                          <img src="images/aboutus2.png" alt="aboutus1"/>
+                      </div>
+                      
+                      <div class="col-sm-4"> <!-- tasarımı yine üç sütuna bölüyorum burada-->
+                          <h4>HAZİRAN 2016</h4>
+                          <h4>İlk Proje</h4>
+                          <p>
+                    Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. 
+                    Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.
+                          </p>
+                      </div>
+                  </div>
+                      <div class="row">
+                      <div class="col-sm-4 text-right"> <!-- tasarımı yine üç sütuna bölüyorum burada-->
+                          <h4>HAZİRAN 2018</h4>
+                          <h4>Mezuniyet Heyecanı</h4>
+                          <p>
+                    Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. 
+                    Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.
+                          </p>
+                      </div>
+                      <div class="col-sm-4 text-center">
+                          <img src="images/aboutus3.png" alt="aboutus1"/>
+                      </div>
+                  </div>
+                  
+                  <div class="row">
+                      <div class="col-sm-4 offset-sm-4 text-center"> <!-- offset ile ikinci resimin solunu boşaltıyorum-->
+                          <img src="images/aboutus4.png" alt="aboutus1"/>
+                      </div>
+                      
+                      <div class="col-sm-4"> <!-- tasarımı yine üç sütuna bölüyorum burada-->
+                          <h4>OCAK 2019</h4>
+                          <h4>Karaalioğlu Mimarlık Kuruldu</h4>
+                          <p>
+                    Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. 
+                    Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.
+                          </p>
+                      </div>
+                  
+                  </div>
+                      
+                  <div class="row">
+                      <div class="col-sm-4 offset-sm-4">
+                          <div class="about-circle">
+                              <p class="yellow-text">HİKAYEMİZ<br>
+                                 DEVAM<br>
+                                 EDİYOR<br>
+                                  ...
+                              </p>
+                                </div>
+                          </div>
+                      </div>
+              
+              </div>
+          </div>
+      </section>
+      
+      
+      <section id="takim">
+          <div class="container">
+              <div class="takim-top text-center">
+                      <h3>TAKIMIMIZ</h3>
+                      <p>Proin iaculis purus consequat sem cure.</p>
+              </div>
+              
+              <div class="takim-content">
+                  <div class="row">
+                      <div class="col-md-4 text-center offset-md-2 justify-content-center">
+                          <div class="takim-circle">
+                              <img src="images/samet.png">
+                              
+                          </div>
+                              <h4>Samet Karaalioğlu</h4>
+                              <h5>Mimar</h5>
+
+                              <ul class="social-icons">
+                                  <li class="social-icon">
+                                  <i class="fab fa-linkedin-in"></i>
+                                  </li>
+                                  
+                                  <li class="social-icon">
+                                  <i class="fab fa-facebook-f"></i>
+                                  </li>
+                                  
+                                  <li class="social-icon">
+                                  <i class="fab fa-twitter"></i>
+                                  </li>                              
+                              </ul>
+                          
+                      </div>
+                      
+                      <div class="col-md-4 text-center justify-content-center">
+                          <div class="takim-circle">
+                          <img src="images/aytac1.png"/>
+                          </div>
+                              <h4>Aytaç Sinan Yaydem</h4>
+                              <h5>Web Geliştirici</h5>
+
+                              <ul class="social-icons">
+                                  <li class="social-icon">
+                                  <i class="fab fa-linkedin-in"></i>
+                                  </li>
+                                  
+                                  <li class="social-icon">
+                                  <i class="fab fa-facebook-f"></i>
+                                  </li>
+                                  
+                                  <li class="social-icon">
+                                  <i class="fab fa-twitter"></i>
+                                  </li>                              
+                              </ul>
+                     
+                    </div>
+                      
+
+                  </div>
+              </div>
+              
+
+                 <div class="takim-paragraf">
+                    <div class="row text-center">
+                    <div class="col-md-8 offset-md-2" >
+                      <p>
+                      Daha fazla bilgi edinmek için veya sorularınız için aşağıdaki iletişim formunu kullanarak bize ulaşabilirsiniz.<br>
+                      Mutlaka 24 saat içinde size geri dönüş sağlanacaktır.
+                      </p>
+                    </div>
+
+                  </div>
+ 
+                  </div>
+
+          </div>
+      </section>
+      
+      
+      <section id="contact">
+          <div class="container">
+              <div class="contact-top text-center">
+                    <h3>BİZE ULAŞIN</h3>
+                    <p>Bize ulaşmak için aşağıdaki formu kullanabilirsiniz.</p>
+              </div>
+              
+              <div class="contact-content">
+                  <form class="golden-form" role="form" method="post">
+                      <div class="row">
+                          <div class="col-sm-6">
+                              <div class="form-element">
+                            <input type="text" class="golden-form-element" id="name" name="name" placeholder="İSMİNİZ*"/>
+                              </div>
+                              
+                              <div class="form-element">
+                            <input type="email" class="golden-form-element" id="email" name="email" placeholder="MAIL ADRESİNİZ*"/>
+                              </div>
+                              
+                              <div class="form-element">
+                            <input type="text" class="golden-form-element" id="subject" name="subject" placeholder="KONU BAŞLIĞI*"/>
+                              </div>
+                              
+                          </div>
+                          
+                          <div class="col-sm-6">
+                              <div class="form-element">
+                                  <textarea class="golden-form-element" name="message" placeholder="MESAJINIZ*"></textarea>
+  
+                              </div>
+
+                          </div>
+                      
+                      </div>
+                      
+                      <div class="row justify-content-center">
+                          <div class="form-element">
+                              <input type="submit" class="btn btn-primary btn-lg" id="submit" name="submit" value="MESAJI GÖNDER"/>
+                          
+                          </div>
+
+                      </div>
+                      
+                  </form>
+       
+              </div>
+          
+          </div>
+      
+      </section>
+      
+      <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>&copy; Copyright 2019 Aytaç Sinan Yaydem</p>
+                </div>
+                
+                <div class="col-sm-4">
+                    <ul class="footer-social text-center">
+                        <li class="footer-social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </li>
+                        
+                        <li class="footer-social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </li>
+                        
+                        <li class="footer-social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </li>
+                        
+                        <li class="footer-social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </li>
+       
+                    </ul>
+                    
+                </div>    
+                
+            </div>
+          
+        </div>
+ 
+      </section>
+      
+      
+
+        <script src="https://kit.fontawesome.com/858ab729eb.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+        <script src="js/main.js"></script>
+      
+        
+        
+      
+    
+    
+  </body>
+</html>
